@@ -1,0 +1,232 @@
+body {
+	margin:0;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.topo{
+	height: 30px;
+	background-color: #333;
+
+	color: white;
+}
+
+.topoint{
+	width: 100%;
+	max-width: 1040px;		/* * Important */
+	height: 30px;
+
+	margin: auto;
+}
+
+.topoleft {
+	width: 50%;
+	height: 30px;
+	float: left;
+	
+}
+
+.toporight{
+	width: 50%;
+	height: 28px;
+	float: right;
+
+	text-align: right;
+
+	margin-top: 2px;
+}
+
+.topoleft ul{
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.topoleft li{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.topoleft li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.topoleft li .ativo{
+	color:rgb(57, 143, 201);
+}
+
+.topobusca{
+	width: 110px;
+	height: 26px;
+
+	outline: 0;
+}
+
+.toporight a{
+	float: right;
+
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.toporight input{
+	float: right;
+}
+
+.toporight .lupa{
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+.topo2{
+	height: 95px;
+	color: black;
+	background-color: #ccc;
+}
+
+.topo2int{
+	width: 100%;
+	max-width: 1040px;
+	height: 95px;
+	margin: auto;
+	
+}
+
+.logo{
+	width: 230px;
+	height: 88px;
+	float: left;
+
+	margin-top: 7px;
+}
+
+.topo2 .banner{
+	width: 650px;
+	height: 80px;
+
+	float: right;
+	margin-top: 7.5px;
+
+	background-color: #010F2E;
+}
+
+.menu{
+	height: 40px;
+	background-color: #010F2E;
+}
+
+.menuint{
+	width: 100%;
+	max-width: 1040px;
+	margin: auto;
+	height: 40px;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+	
+}
+
+.menu li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+
+	padding-left: 8px;
+	padding-right: 8px;
+
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+
+	transition: all 0.2s ease;
+}
+
+.menu li a:hover{
+	color: #010F2E;
+	background-color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+/* Somente no li q possui submenu! */
+.menu li:hover .submenu{
+	display: block;
+}
+
+.submenu{
+	width: 140px;
+	
+	background-color: #010F2E;
+	position: absolute;
+
+	border: 2px solid #010F2E;
+	display: none;
+	
+	transition: all 0.2s ease;
+}
+
+.submenuitem{
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+
+	padding-left: 10px;
+
+}
+
+.submenuitem:hover{
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
