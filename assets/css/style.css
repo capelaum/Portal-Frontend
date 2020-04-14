@@ -451,6 +451,10 @@ body {
 	color: black;
 }
 
+.menumobile{
+	display: none;
+}
+
 @media only screen and (min-width:906px) and (max-width:1057px) {
 
 	.topoint,
@@ -485,6 +489,7 @@ body {
 		width: 245px;
     	font-size: 25px;
 	}
+	
 }
 
 @media only screen and (min-width:783px) and (max-width:906px) {
@@ -565,19 +570,26 @@ body {
 		display:block;
 	}
 
+	.menumobile:hover {
+		cursor: pointer;
+	}
+
 	.menu ul {
 		position:absolute;
-		background-color: red;
+		background-color: #010F2E;
 		z-index: 10;
 		display:none;
 	}
+
 	.menu li {
 		float:none;
 		height:auto;
 	}
+
 	.menu li img {
 		display:none;
 	}
+
 	.submenu {
 		position:static;
 		display:block;
