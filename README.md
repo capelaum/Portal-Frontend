@@ -6,6 +6,6 @@
 
 <h4 align="center">
   <a href="#">
-    <img src="assets/images/Screen.png" alt="Site ScreenShot">
+    <img src="assets/images/Screen.png" alt="Site ScreenShot" width="600">
   </a>
 </h4>
