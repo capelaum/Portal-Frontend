@@ -269,8 +269,12 @@ body {
 	float: left;
 	margin-right: 5px;
 	cursor: pointer;
-	background-color: #ccc;
+	background-color: #010F2E;
 	border-radius: 10px;
+}
+
+.bolinha:hover{
+	background-color: white;
 }
 
 .slideshowarea{
